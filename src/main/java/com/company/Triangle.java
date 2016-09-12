@@ -1,4 +1,5 @@
-package com.company;
+package main.java.com.company;
+
 
 public class Triangle extends Figure {
     public Triangle(String name, int storonaA, int storonaB){

@@ -10,4 +10,9 @@ public class Circle extends Figure{
     public double getSquare() {
         return (int)radius * Math.PI;
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

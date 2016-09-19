@@ -11,4 +11,9 @@ public class Reactangle extends Figure {
     public double getSquare() {
         return storonaA *storonaB;
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

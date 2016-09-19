@@ -8,6 +8,11 @@ public class Triangle extends Figure {
 
     @Override
     public double getSquare() {
-        return (int)0.5 * storonaA * storonaB;
+        return 0.5 * storonaA * storonaB;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }

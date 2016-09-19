@@ -1,7 +1,7 @@
 package main.java.com.company;
 
 
-public abstract class Figure {
+public abstract class Figure implements Comparable {
     protected String name;
     protected int storonaA;
     protected int storonaB;
